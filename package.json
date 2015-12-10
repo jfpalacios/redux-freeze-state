@@ -1,0 +1,27 @@
+{
+  "name": "redux-frozen-reducer",
+  "version": "1.0.0",
+  "description": "Freeze state to prohibit mutation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jfpalacios/redux-freeze-state"
+  },
+  "keywords": [
+    "redux",
+    "freeze",
+    "state"
+  ],
+  "author": "jfpalacios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfpalacios/redux-freeze-state/issues"
+  },
+  "homepage": "https://github.com/jfpalacios/redux-freeze-state",
+  "dependencies": {
+    "deep-freeze": "0.0.1"
+  }
+}
