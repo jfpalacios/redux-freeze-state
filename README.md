@@ -10,6 +10,16 @@ let reducer = ...
 let store = createStore(freezeState(reducer));
 ```
 
+Or apply it selectively:
+
+```js
+var reducer = combineReducers({
+  todos: freezeState(todos),
+  emails: emails,
+  files: freezeState(files)
+});
+```
+
 Modifying store state will result in an error:
 
 ```
