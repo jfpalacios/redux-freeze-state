@@ -1,5 +1,5 @@
 {
-  "name": "redux-frozen-reducer",
+  "name": "redux-freeze-state",
   "version": "1.0.0",
   "description": "Freeze state to prohibit mutation",
   "main": "index.js",
